@@ -1,0 +1,11 @@
+.navbar {
+  margin-bottom: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.nav-list-item {
+  font-size: 1.5em;
+}
