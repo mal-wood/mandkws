@@ -1,3 +1,7 @@
+* {
+  font-family: 'Helvetica Neue';
+}
+
 ul {
     list-style-type: none;
 }
@@ -7,7 +11,11 @@ a {
 }
 
 footer {
-  background-color: #EBE4E0;
+  background-color: #F1E5E8;
+}
+
+.footer-text {
+  font-size: .5em;
 }
 
 a:hover {
