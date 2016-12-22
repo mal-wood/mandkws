@@ -1,9 +1,18 @@
-.navbar {
-  margin-bottom: 0;
-}
-
 ul {
     list-style-type: none;
+}
+
+a {
+  color: #fff;
+}
+
+footer {
+  background-color: #EBE4E0;
+}
+
+a:hover {
+  color: #EBE4E0;
+  text-decoration: none;
 }
 
 .navbar-text {
@@ -11,11 +20,6 @@ ul {
   padding-top: 15px;
 }
 
-a {
-  color: #fff;
-}
-
-a:hover {
-  color: #EBE4E0;
-  text-decoration: none;
+.navbar {
+  margin-bottom: 0;
 }
