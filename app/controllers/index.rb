@@ -9,3 +9,7 @@ end
 get '/wedding-party' do 
   erb :party 
 end 
+
+get '/rsvp' do 
+  erb :rsvp
+end 
