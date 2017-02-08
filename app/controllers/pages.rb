@@ -12,6 +12,7 @@ post '/rsvp' do
   p params[:message]
   Pony.mail :to => 'mallorywood413@gmail.com',
   :from => 'kelseyjsantoro@gmail.com',
-  :subject => params[:guests]
+  :subject => params[:guests], 
+  :body => params[:message]
   redirect to('/')
 end 
