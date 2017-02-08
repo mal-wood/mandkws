@@ -1,7 +1,7 @@
-<form>
-  Name of guests:<br>
+<form action="/rsvp" method="post" id="rsvpform">
+  Name of guests<br>
   <input type="text" name="guests"><br>
-  RSVP Message:<br>
-  <textarea type="text" name="message"></textarea>
+  Message:<br>
+  <input type="text" name="message">
 </form>
-<button name="send-mail">Send</button>
+<button type="submit" form="rsvpform" value="Submit">Submit</button>
