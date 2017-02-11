@@ -3,11 +3,16 @@
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 a {
   color: #fff;
+}
+
+a:hover {
+  color: #EBE4E0;
+  text-decoration: none;
 }
 
 footer {
@@ -18,10 +23,6 @@ footer {
   font-size: .5em;
 }
 
-a:hover {
-  color: #EBE4E0;
-  text-decoration: none;
-}
 
 .navbar-text {
   margin: 0px;
@@ -30,4 +31,9 @@ a:hover {
 
 .navbar {
   margin-bottom: 0;
+}
+
+#little-logo {
+  width: 50px;
+  border: solid 2px;
 }
