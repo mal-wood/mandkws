@@ -36,19 +36,6 @@ configure do
   # Set the views to
   set :views, File.join(Sinatra::Application.root, "app", "views")
 
-  #configure Sendgrid 
-     Pony.options = {
-      :via => :smtp,
-      :via_options => {
-        :address => 'smtp.sendgrid.net',
-        :port => '587',
-        :domain => 'myapp.com',
-        :user_name => ENV['SENDGRID_USERNAME'],
-        :password => ENV['SENDGRID_PASSWORD'],
-        :authentication => :plain,
-        :enable_starttls_auto => true
-      }
-    }
 end
 
 # Set up the controllers and helpers
@@ -58,4 +45,26 @@ Dir[APP_ROOT.join('app', 'helpers', '*.rb')].each { |file| require file }
 # Set up the database and models
 require APP_ROOT.join('config', 'database')
 
+require 'pony'
+require 'sinatra/base'
 
+class Application < Sinatra::Base
+  configure do
+    # ...
+
+    Pony.options = {
+      :via => :smtp,
+      :via_options => {
+        :address => 'smtp.sendgrid.net',
+        :port => '587',
+        :domain => 'kelsandmal.herokuapp.com',
+        :user_name => ENV['SENDGRID_USERNAME'],
+        :password => ENV['SENDGRID_PASSWORD'],
+        :authentication => :plain,
+        :enable_starttls_auto => true
+      }
+    }
+  end
+
+  # ...
+end

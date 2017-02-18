@@ -14,13 +14,19 @@ get '/party' do
 end 
 
 post '/rsvp' do 
- Pony.mail(
-    to: "mallorywood413@gmail.com"
-    from: "MyApp Help Desk <noreply@myapp.com>",
-    subject: "MyApp Account Verification",
-    body: "A request has been made to verify your MyApp account (https://myapp.com)." +
-          "If you made this request, go to If you did not make this request, ignore this email.",
-  )
+Pony.options = {
+  :from => 'demo@sendgrid.com',
+  :via => :smtp,
+  :via_options => {
+    :address        => 'smtp.sendgrid.net',
+    :port           => '587',
+    :user_name      => 'sendgriduser',
+    :password       => 'sendgridpassword',
+    :authentication => :plain
+  }
+}
+
+message = Pony.mail :to => 'mallorywood413@gmail.com', :from => 'kelseyjsantoro@gmail.com', :subject => 'SendGrid Delivered!', :body => 'Hello there. You look great today!'
     redirect "/"
 
 end 
