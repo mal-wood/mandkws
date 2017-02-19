@@ -9,6 +9,16 @@
   border-bottom-right-radius: 0;
 }
 
+img {
+  width: 175px;
+}
+
+h1 {
+  color: #E3BAB3;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
 ul {
   list-style-type: none;
 }
@@ -26,6 +36,7 @@ footer {
   background-color: #E3BAB3;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
+  line-height: 25px;
 }
 
 .footer-text {
@@ -37,6 +48,14 @@ footer {
   padding-top: 15px;
 }
 
+.party-names {
+  line-height: 2em;
+}
+
+.party-row {
+  padding-bottom: 20px;
+}
+
 #little-logo {
   width: 50px;
   border: solid 2px #FFF;
@@ -44,4 +63,8 @@ footer {
 
 #little-logo:hover {
   color: #849974;
+}
+
+#main-photo {
+  width: 100%;
 }

@@ -18,7 +18,6 @@ gem 'pry'
 
 gem 'pony'
 
-
 group :test do
   gem 'shoulda-matchers'
   gem 'rack-test'
