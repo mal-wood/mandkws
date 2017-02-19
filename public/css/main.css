@@ -52,6 +52,13 @@ footer {
   line-height: 2em;
 }
 
+.party-container {
+  background-color: #EBEADD;
+  padding-top: 50px;
+  margin: 0 50px 50px 50px;
+  border-radius: 5px;
+}
+
 .party-row {
   padding-bottom: 20px;
 }
