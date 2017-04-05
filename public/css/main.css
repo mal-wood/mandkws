@@ -92,6 +92,11 @@ footer {
   padding-right: 50px;
 }
 
+.reg-pic {
+  width: 200px;
+  padding: 20px;
+}
+
 #little-logo {
   width: 50px;
   border: solid 2px #FFF;
