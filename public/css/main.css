@@ -70,7 +70,7 @@ footer {
 
 .party-img {
   border-radius: 5px;
-  width: 175px;
+  width: 250px;
 }
 
 .hacienda {
@@ -105,3 +105,11 @@ footer {
   width: 100%;
   padding-bottom: 0px;
 } 
+
+.mal {
+  padding-right: 50px;
+}
+
+.kels {
+  padding-left: 50px;
+}
