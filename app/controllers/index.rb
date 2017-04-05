@@ -6,6 +6,10 @@ get '/details' do
   erb :details
 end 
 
+get '/story' do 
+  erb :story 
+end 
+
 get '/wedding-party' do 
   erb :party 
 end 

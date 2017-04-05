@@ -2,15 +2,12 @@
   font-family: 'Helvetica Neue';
 }
 
+
 .navbar {
-  background-color: #36384C;
+  background-color: #12244C;
   margin-bottom: 0;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
-}
-
-img {
-  width: 175px;
 }
 
 h1 {
@@ -55,12 +52,44 @@ footer {
 .party-container {
   background-color: #EBEADD;
   padding-top: 50px;
-  margin: 0 50px 50px 50px;
+  margin: 0 20px 20px 20px;
+  border-radius: 5px;
+}
+
+.registry-container {
+  background-color: #EBEADD;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0 20px 20px 20px;
   border-radius: 5px;
 }
 
 .party-row {
   padding-bottom: 20px;
+}
+
+.party-img {
+  border-radius: 5px;
+  width: 175px;
+}
+
+.hacienda {
+  width:400px;
+  border-radius: 5px;
+}
+
+.hacienda-image {
+  text-align: center;
+}
+
+.details-text {
+  text-align: center;
+}
+
+.story-details {
+  padding-top: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 #little-logo {
@@ -74,4 +103,5 @@ footer {
 
 #main-photo {
   width: 100%;
-}
+  padding-bottom: 0px;
+} 
