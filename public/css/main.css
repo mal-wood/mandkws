@@ -39,10 +39,9 @@ a:hover {
 }
 
 footer {
-  background-color: #E3BAB3;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  line-height: 25px;
+  line-height: 40px;
 }
 
 .footer-text {
