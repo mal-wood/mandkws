@@ -2,16 +2,21 @@
   font-family: 'Helvetica Neue';
 }
 
+body {
+  background-color: #E3BAB3;
+}
+
 
 .navbar {
   background-color: #12244C;
   margin-bottom: 0;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
+  width: 100%;
 }
 
 h1 {
-  color: #E3BAB3;
+  color: #FFF;
   font-weight: bold;
   padding-bottom: 20px;
 }
