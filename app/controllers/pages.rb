@@ -16,6 +16,11 @@ end
 get '/registry' do 
   erb :registry
 end 
+
+get '/timeline' do 
+  erb :timeline
+end 
+
 # post '/rsvp' do 
 # Pony.options = {
 #   :from => 'demo@sendgrid.com',

@@ -17,3 +17,7 @@ end
 get '/rsvp' do 
   erb :rsvp
 end 
+
+get '/timeline' do 
+  erb :timeline
+end 
